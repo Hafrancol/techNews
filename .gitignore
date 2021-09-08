@@ -1,1 +1,5 @@
+*.config
+*.svg
+*.jpg
+*.png
 assets/
