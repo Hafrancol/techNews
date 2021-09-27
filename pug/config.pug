@@ -5,3 +5,15 @@ mixin li(text,link)
 mixin button(link,text,clase)
 	a(href=link,class="button")=text
 			i(class="fas "+clase)
+
+
+
+
+mixin card(mainclass,img,desImg,title,text,link,textButton,clase)
+	article(class="news "+mainclass)
+		img(src=img, alt=desImg)
+		h3=title 
+		p=text
+		a(href=link)=textButton
+			i(class="fas "+clase)
+		

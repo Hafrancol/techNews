@@ -5,10 +5,10 @@
 4.Estilos visuales
 5. Otros
 */
-
+// General button
 .button{
 	display: inline-block;
-	margin: 10px 10px;
+	margin: 10px 0px;
 	cursor: pointer;
 	border: 1px solid white;
 	font-weight: bold;
@@ -21,7 +21,33 @@
 		border-bottom: 1px solid white;
 	}
 	i{
-		margin-left: 10px;
+		margin-left: 5px;
+	}
+}
+
+//This styles is for cards about newsCardsOne and newsCardsTwo sections
+.news{
+
+	img{
+		width: 100%;
+		height: 180px;
+	}
+	h3{
+		font-size: 2rem;
+		margin: 10px 0;
+	}
+	a{
+		display: inline-block;
+		text-transform: uppercase;
+		padding: 10px 0;
+		&:hover{
+			border: 0;
+			opacity: 0.5;
+			text-decoration: underline;
+		}
+		i{
+			margin-left: 5px;
+		}
 	}
 }
 
@@ -29,7 +55,7 @@
 
 
 @mixin pattern-background{
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.2'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 *{
@@ -41,10 +67,12 @@
 html{
 	font-size: 62.5%;
 }
-
-body{
+main{
 	width: 90%;
 	margin: auto;
+}
+body{
+	
 	font-size: 1.6rem;
 	font-family: 'Oswald', sans-serif;;
 	background-color: black;

@@ -7,7 +7,7 @@
 */
 .button {
   display: inline-block;
-  margin: 10px 10px;
+  margin: 10px 0px;
   cursor: pointer;
   border: 1px solid white;
   font-weight: bold;
@@ -21,7 +21,29 @@
   border-bottom: 1px solid white;
 }
 .button i {
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+.news img {
+  width: 100%;
+  height: 180px;
+}
+.news h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.news a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.news a:hover {
+  border: 0;
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.news a i {
+  margin-left: 5px;
 }
 
 * {
@@ -35,14 +57,17 @@ html {
   font-size: 62.5%;
 }
 
-body {
+main {
   width: 90%;
   margin: auto;
+}
+
+body {
   font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
   background-color: black;
   color: white;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.2'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 a {
@@ -55,6 +80,18 @@ a:hover {
 
 ul {
   list-style: none;
+}
+
+/*
+1.Posicionamiento
+2.Modelo decaja
+3.Tipografia
+4.Estilos visuales
+5. Otros
+*/
+header {
+  width: 90%;
+  margin: auto;
 }
 
 .nav-main {
@@ -118,4 +155,123 @@ hr {
 }
 .showcase h2, .showcase p {
   margin-bottom: 10px;
+}
+
+.news-cards-one {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 10px 0px;
+}
+
+/*
+1.Posicionamiento
+2.Modelo decaja
+3.Tipografia
+4.Estilos visuales
+5. Otros
+*/
+.cards-banner-one {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
+  background-image: url("https://i.postimg.cc/D0X10yW2/tech-red.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text-container-one {
+  width: 40%;
+  padding: 90px 0 0 30px;
+}
+.banner-text-container-one h2 {
+  margin-bottom: 25px;
+}
+
+.news-cards-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 10px 0px;
+}
+
+/*
+1.Posicionamiento
+2.Modelo decaja
+3.Tipografia
+4.Estilos visuales
+5. Otros
+*/
+.cards-banner-two {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
+  background-image: url("https://i.postimg.cc/cCSL7s91/image-five.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text-container-two {
+  width: 40%;
+  padding: 90px 0 0 30px;
+}
+.banner-text-container-two h2 {
+  margin-bottom: 25px;
+}
+
+.social-content {
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+}
+.social-content p {
+  font-size: 3rem;
+}
+
+.links {
+  font-size: 4rem;
+}
+.links a {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+footer {
+  padding: 35px 0;
+  font-size: 1.2rem;
+  background-color: #2f3640;
+}
+
+.footer-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.footer-container ul {
+  margin: 0 auto;
+}
+.footer-container ul li {
+  line-height: 2;
+}
+
+.copy-right {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #616161;
+  background-color: #2f3640;
+  padding: 20px 0;
 }

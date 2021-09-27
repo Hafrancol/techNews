@@ -1,0 +1,28 @@
+footer{
+	padding: 35px 0;
+	font-size: 1.2rem;
+	background-color:#2f3640;
+}
+
+.footer-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap:10px;
+	justify-content: center;
+	align-items: flex-start;
+
+	ul{
+		margin: 0 auto;
+		li{
+			line-height: 2;
+		}
+	}
+}
+
+.copy-right{
+	text-align: center;
+	font-size: 1.2rem;
+	color: #616161;
+	background-color:#2f3640;
+	padding: 20px 0;
+}
