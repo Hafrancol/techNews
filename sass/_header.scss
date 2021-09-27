@@ -1,0 +1,54 @@
+// header{
+
+// }
+
+// navigation 
+.nav-main{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.7rem;
+	align-items: center;
+	ul{
+		display: flex;
+
+		li{
+			padding:10px ;
+		}
+	}
+	
+}
+// navigation right
+.nav-brand{
+	width: 5rem;
+}
+.nav-menu-left{
+	flex: 1;
+	margin-left: 10px;
+}
+
+hr{
+	margin:10px 0
+
+}
+
+//-----------SHOWCASES--------------//
+.showcase{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-image: url("https://i.postimg.cc/m2nKKd4C/showcase2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h2,p{
+		margin-bottom:10px;
+	}
+	
+}
+

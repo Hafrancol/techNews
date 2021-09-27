@@ -1,3 +1,7 @@
 mixin li(text,link)
 	li 
 		a(href=link)=text
+
+mixin button(link,text,clase)
+	a(href=link,class="button")=text
+			i(class="fas "+clase)

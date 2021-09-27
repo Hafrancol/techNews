@@ -1,10 +1,29 @@
 /*
-1. Posicionamiento
+1.Posicionamiento
 2.Modelo decaja
 3.Tipografia
 4.Estilos visuales
 5. Otros
 */
+.button {
+  display: inline-block;
+  margin: 10px 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #262626;
+  color: white;
+  font-size: 1.5rem;
+}
+.button:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid white;
+}
+.button i {
+  margin-left: 10px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -30,7 +49,73 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  border-bottom: 2px solid white;
+}
 
 ul {
   list-style: none;
+}
+
+.nav-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-brand {
+  width: 5rem;
+}
+
+.nav-menu-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url("https://i.postimg.cc/m2nKKd4C/showcase2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase h2, .showcase p {
+  margin-bottom: 10px;
 }
