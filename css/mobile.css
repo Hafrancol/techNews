@@ -1,0 +1,21 @@
+.news-cards-one {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.news-cards-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.banner-text-container-one {
+  width: 90%;
+}
+
+.banner-text-container-two {
+  width: 90%;
+}

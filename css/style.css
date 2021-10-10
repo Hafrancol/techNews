@@ -82,6 +82,10 @@ ul {
   list-style: none;
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 /*
 1.Posicionamiento
 2.Modelo decaja
@@ -91,7 +95,11 @@ ul {
 */
 header {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.menu-bton {
+  display: none;
 }
 
 .nav-main {
@@ -181,6 +189,7 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .banner-text-container-one {

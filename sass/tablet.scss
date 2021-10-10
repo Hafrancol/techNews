@@ -1,0 +1,60 @@
+nav{
+	height: 45px;
+}
+nav .nav-menu-left{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #2f3640;
+	transform: translateX(-200px);
+	padding: 10px;
+	opacity: 0.7;
+	height: 100%;
+	transition: all 2s;
+	
+}
+
+nav .menu-show{
+	transform: translateX(-20px);
+	transition: all 2s;
+}
+.nav-main img{
+	display: none;
+}
+.nav-menu-right a{
+	display: none;
+}
+
+.menu-bton{
+	position: absolute;
+	font-size: 2.5rem;
+	top: 10px;
+	right: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+
+
+.news-cards-one{
+	grid-template-columns: repeat(2,1fr);
+}
+
+.news-cards-two{
+	grid-template-columns: repeat(2,1fr);
+}
+
+.banner-text-container-one{
+	width: 80%;
+
+}
+.banner-text-container-two{
+	width: 80%;
+
+}
+
+.footer-container{
+	grid-template-columns: repeat(2,1fr);
+}

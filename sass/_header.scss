@@ -9,7 +9,10 @@
 // navigation 
 header{
 	width: 90%;
-	margin: auto;
+	margin: 0 auto;
+}
+.menu-bton{
+	display: none;
 }
 .nav-main{
 	display: flex;
@@ -23,7 +26,6 @@ header{
 			padding:10px ;
 		}
 	}
-	
 }
 // navigation right
 .nav-brand{
